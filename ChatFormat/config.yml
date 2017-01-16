@@ -1,0 +1,21 @@
+#Variables:
+#   PREFIX - {PREFIX}
+#   SUFFIX - {SUFFIX}
+#   RANK - {RANK}
+#   PLAYER-NAME - {PLAYER_NAME}
+#   DIPLAY-NAME - {DISPLAY_NAME}
+#   PLAYER-MESSAGE {MESSAGE}
+
+#COMMANDS:
+# - /chatformat reload
+
+#PERMISSIONS:
+# - ChatSystem.Admin (Ability to /chatsystem reload)
+# - ChatSystem.Color (Chat in Color)
+
+#Settings
+Format: '{PREFIX} {PLAYER_NAME}: {MESSAGE}'
+
+PluginReloaded: 'Config reloaded!'
+NoPermissions: 'You dont have permissions!'
+UnkownCommand: 'Usage: /chatsystem reload'

@@ -1,0 +1,11 @@
+name: ChatFormat
+main: me.benzplayz.Main
+version: 1.0
+author: BenTheNoble
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+description: Set a chat format! To be used by MC-Central Network only!
+
+commands:
+  chatsystem:
+    description: Reload config file!
